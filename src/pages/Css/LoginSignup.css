@@ -1,0 +1,51 @@
+.loginsingup{
+    width: 100%;
+    height: 100vh;
+    background: papayawhip;
+    padding-top: 40px;
+}
+.loginsignup-container{
+    width: 580px;
+    height: 600px;
+    background: white;
+    margin: auto;
+    padding: 40px 60px;
+    
+}
+.loginsignup-container h1{
+    margin: 20px,0px;
+}
+.loginsign-fields{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    margin-top: 30px;
+}
+.loginsign-fields input{
+    height: 72px;
+    width: 100%;
+    padding-left: 20px;
+    border: 1px solid wheat;
+    border-radius: 20px;
+    outline: none;
+    color: gray;
+    font-size: 18px;
+}
+.loginsignup-container button{
+    width: 580px;
+    height: 72px;
+    color: white;
+    background: red;
+    margin-top: 30px;
+    border: none ;
+    font-size: 24px;
+    font-weight: 500;
+    border-radius: 60px;
+    cursor: pointer;
+}
+.loginsignup-login{
+    margin-top: 20px;
+    color: gray;
+    font-size: 18px;
+    font-weight: 500;
+}
