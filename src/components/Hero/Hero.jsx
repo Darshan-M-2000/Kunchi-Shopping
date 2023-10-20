@@ -2,7 +2,8 @@ import React from 'react'
 import './Hero.css'
 import hand_icon from '../assets/hand_icon.png'
 import arrow_icon from '../assets/arrow.png'
-import hero_image from '../assets/hero_image.png'
+import Darshan_img from '../assets/Darshan_walk.png'
+// import hero_image from '../assets/hero_image.png'
 const Hero = () => {
   return (
     <div className='hero'>
@@ -22,7 +23,7 @@ const Hero = () => {
             </div>
         </div>
         <div className="hero-right">
-            <img src={hero_image} alt="" />
+            <img src={Darshan_img} alt="" />
 
         </div>
     </div>
